@@ -1,0 +1,168 @@
+/*
+   File: style.css
+   Student's Name: Adinlewa Tawakalitu Eunice
+   Student ID: 301281523
+   Date: June 04, 2023
+*/
+
+/* CSS Stylesheet */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.wrapper {
+  width: 80%; 
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #333333;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #e6e6e6;
+}
+
+
+    /* Home Page */
+    .logo-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .logo-img {
+      width: 200px; 
+      height: auto;
+      display: block;
+      margin: 0 auto; 
+      margin-bottom: 20px;
+    }
+
+    .logo-heading {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    
+    
+    .fielding-section {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+.home-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* About Page */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.info-container {
+  margin-top: 20px;
+}
+
+.profile-container {
+  margin-right: 20px;
+}
+.resume-link {
+  display: block;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #337ab7;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  background-color: #286090;
+}
+
+/* Contact Page */
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  margin-top: 5px;
+}
+
+.contact-form .submit-btn {
+  margin-top: -10px; 
+}
+
+/* Products Page */
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Services Page */
+.service {
+  margin-bottom: 20px;
+}
+
+.service-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-info {
+  padding: 10px;
+}
+
+

@@ -1,0 +1,50 @@
+<%- include partials/header.ejs %>  
+
+<%- include partials/main_nav.ejs %>
+  
+<!-- Section: Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p><i class="fas fa-map-marker-alt"></i> 1060  Beverly Street, Sudbury, Canada</p>
+          <p><i class="fas fa-phone"></i> +1 555 555 5555</p>
+          <p><i class="fas fa-envelope"></i> adinlewa55@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact-form">
+          <h2>Send us a Message</h2>
+          <form action="/home" method="POST">
+            <div class="mb-3">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" name="firstName" required>
+            </div>
+            <div class="mb-3">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" name="lastName" required>
+            </div>
+            <div class="mb-3">
+              <label for="contactNumber" class="form-label">Contact Number</label>
+              <input type="tel" class="form-control" id="contactNumber" name="contactNumber" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-2">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+
